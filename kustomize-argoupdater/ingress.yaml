@@ -1,7 +1,7 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: nginx
+  name: nginx-ing
 spec:
   rules:
   - host: "sample.192.168.50.16.nip.io"
